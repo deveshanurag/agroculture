@@ -1,0 +1,312 @@
+input[type=text], input[type=password],input[type=file],input[type=email]{
+  
+                        width: 90%;
+                        padding: 15px;
+                        margin: 5px 0 22px 0;
+                        display: inline-block;
+                        border: none;
+                        background: #f1f1f1;
+                        
+                        
+                      
+                      }
+                      .block{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: #bbbbbf;
+                        width: 1300px;
+                        margin-left: 100px;
+                      }
+                      .heading{
+                        align-items: center;
+                        margin-left: 135px;
+                      }
+                      #rform{
+                        margin-left: 10px;
+                        align-items: center;
+                        
+                        width: 500px;
+                      }
+                      .btn{
+                        height: 40px;
+                        width: 80px;
+                        background-color: #4ca234;
+                      }
+                      .box-profile {
+                        display: flex;
+                        background-color: #4ca234;
+                        height: 90px;
+                        margin-top: 20px;
+                        box-shadow: 0px 0px rgb(16, 17, 16), -1em 0 19.4em rgb(17, 17, 17);
+                        width: 100%;
+                        
+                      }
+                      .img-profile{
+                        height: 70px;
+                        width: 100px;
+                      }
+                      .include-file
+                      {
+                        background-color:#bbbbbf;
+                      }
+                      .select-crop
+                      {
+                        width: 96%;
+                        padding: 15px;
+                        margin: 5px 0 22px 0;
+                        display: inline-block;
+                        border: none;
+                        background: #f1f1f1;
+
+                      }
+                     
+                      
+                      
+                      
+                      .container {
+                        display: flex;
+                        grid-row-gap: 500px;
+                        background-color: green;
+                      }
+                      #table1 {
+                        display: flex;
+                        height: 40px;
+                        text-justify: flex-start;
+                        align-content: center;
+                      }
+                      #table1 li {
+                        display: inline;
+                        list-style: none;
+                        padding: 7px 20px;
+                        width: 86px;
+                      }
+                      #table1 li a {
+                        text-decoration: none;
+                        color: white;
+                      }
+                      #table1 li a:hover {
+                        color: blue;
+                      }
+                      #table2 {
+                        display: flex;
+                        align-items: flex-end;
+                        height: 40px;
+                        text-justify: flex-start;
+                        align-content: center;
+                        margin-left: 740px;
+                      }
+                      #table2 li {
+                        display: inline;
+                        list-style: none;
+                        padding: 0px 8px;
+                        width: 25px;
+                      }
+                      #table2 li img {
+                        text-decoration: none;
+                      
+                        height: 40px;
+                      }
+                      #table2 a:hover
+                      {
+                        color: blue;
+                      }
+                      .card {
+                        display: flex;
+                        margin: 10px 56px 0 56px;
+                      }
+                      .card-item img {
+                        width: 205px;
+                        height: 86px;
+                        padding: 0 20px;
+                        margin: 0px 50px;
+                      }
+                      .box {
+                        display: flex;
+                        
+                      
+                        height: 100px;
+                        margin-top: 20px;
+                      
+                        box-shadow: 0px 0px rgb(16, 17, 16), -1em 0 19.4em rgb(17, 17, 17);
+                        
+                      }
+                      .box1 {
+                        display: flex;
+                        justify-content: flex-start;
+                        margin-right: 55px;
+                      }
+                      
+                      .box1 .dropbtn {
+                        width: 200px;
+                        border-radius: 20px;
+                      }
+                      .box2 {
+                        display: flex;
+                        justify-content: end;
+                        margin-right: 55px;
+                        margin-left: 360px;
+                      }
+                      /* Dropdown Button */
+                      .dropbtn {
+                        background-color: #6704aa;
+                        color: white;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        border-radius: 10px;
+                        cursor: pointer;
+                      }
+                      
+                      /* The container <div> - needed to position the dropdown content */
+                      .dropdown {
+                        margin-top: 20px;
+                        margin-left: 140px;
+                        position: relative;
+                        display: inline-block;
+                      }
+                      .dropdown a{
+                        text-decoration: none;
+                        color: white;
+                      
+                      }
+                      
+                      /* Dropdown Content (Hidden by Default) */
+                      .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: #f6faf7;
+                        min-width: 160px;
+                        box-shadow: 0px 8px 16px 0px rgba(61, 59, 59, 0.2);
+                        z-index: 1;
+                      }
+                      
+                      /* Links inside the dropdown */
+                      .dropdown-content a {
+                        color: black;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                      }
+                      
+                      /* Change color of dropdown links on hover */
+                      .dropdown-content a:hover {
+                        background-color: #ddd;
+                      }
+                      
+                      /* Show the dropdown menu on hover */
+                      .dropdown:hover .dropdown-content {
+                        display: block;
+                      }
+                      
+                      /* Change the background color of the dropdown button when the dropdown content is shown */
+                      .dropdown:hover .dropbtn {
+                        background-color: #0f0f0f;
+                      }
+                      .banner {
+                      
+                        background-image: url("/DBMS PROJECT/IMG/ban2.jpg");
+                        background-size: contain;
+                        height: 865px;
+                        margin-top: 35px;
+                        
+                        
+                        
+                        
+                      
+                      }
+                      .upper {
+                        height: 600px;
+                        
+                      }
+                      .lower {
+                        display: flex;
+                        margin: 10px 56px 0 56px;
+                        
+                      }
+                      .lower-card{
+                        width: 20vw;
+                        margin: 0px 150px;
+                        
+                      }
+                      .lower-card img {
+                        
+                         border : 10px solid #6704aa;
+                        
+                      
+                        width: 150px;
+                        height: 150px;
+                        padding: 0 0px;
+                        
+                      }
+                      .name
+                      {
+                        display: flex;
+                        margin: 10px 56px 0 56px;
+                      }
+                      .name-card
+                      {
+                        width: 20vw;
+                        margin: -30px 150px;
+                      }
+                      .name-card p
+                      {
+                        text-align: center;
+                        background-color: green;
+                        color: white;
+                        border-radius: 10px;
+                        margin-top: 25px;
+                        
+                      
+                        width: 170px;
+                        height: 40px;
+                        padding: 0 0px;
+                      
+                      }
+                      .name-card p a{
+                        text-decoration: none;
+                        color: white;
+                      
+                      }
+                      .name-card p a:hover{
+                        color: blue;
+                      
+                      }
+                      
+                      .link {
+                        display: flex;
+                        justify-content: center;
+                        background-color: rgb(12, 13, 12);
+                        min-height: 100px;
+                        color: white;
+                      }
+                      .link a{
+                        text-decoration: none;
+                        color: green;
+                      }
+                      footer {
+                        background-color: black;
+                      }
+                      footer p {
+                        height: 20px;
+                        color: white;
+                      }
+                      .content {
+                        margin: 0px auto;
+                      }
+                      
+                      
+                      
+                      
+                      .flex-all-center
+                      {
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                      }
+                      .text-center{
+                          text-align: center;
+                      }
+                      
+                      
+                      
